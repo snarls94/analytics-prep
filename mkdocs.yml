@@ -1,0 +1,10 @@
+site_name: Audit & Accountability Policy
+docs_dir: docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Purpose: purpose.md
+  - Scope: scope.md
+  - Roles & Responsibilities: roles.md
+  - Review Cycle: review_cycle.md
