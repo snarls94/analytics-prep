@@ -1,15 +1,57 @@
-name: Deploy docs to GitHub Pages
+name: Build & Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+
+permissions:
+  contents: read      # for checkout
+  pages: write        # to push to GH Pages
+  id-token: write     # needed by deploy-pages
 
 jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Grab the full repo history so git commands won’t fail
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # 2) Set up Python
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 3) Install MkDocs & theme
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocs-material
+
+      # 4) Build the static site into ./site
+      - name: Build MkDocs site
+        run: mkdocs build --site-dir site
+
+      # 5) Configure GitHub Pages
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+
+      # 6) Upload the site artifact for deployment
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: site
+
   deploy:
+    needs: build-deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # 7) Deploy to GitHub Pages
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@v2
+
