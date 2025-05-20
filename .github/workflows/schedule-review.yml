@@ -2,7 +2,7 @@ name: Schedule Annual Policy Review
 
 on:
   schedule:
-    - cron: '0 14 1 1 *'  # January 1 at 14:00 UTC (10 AM EST)
+    - cron: '0 14 1 1 *'  # January 1 @ 10 AM EST (14 UTC)
 
 jobs:
   remind:
@@ -26,3 +26,4 @@ jobs:
   3. Update after any security incident
 
 _Assign yourself and close when complete._`
+            })
