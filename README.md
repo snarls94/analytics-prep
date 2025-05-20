@@ -16,9 +16,12 @@ A local “embedded analytics” demonstration for CJIS Audit & Accountability (
   - [Installation](#installation)
 - [Usage](#usage)
   - [1. Ingest & Normalize Logs](#1-ingest--normalize-logs)
+  ```bash
+  python scripts/ingest_logs.py
   - [2. Failure Detection & Recovery](#2-failure-detection--recovery)
   - [3. Weekly Review & Reporting](#3-weekly-review--reporting)
   - [4. Dashboard & Drill-downs](#4-dashboard--drill-downs)
+  ```
 - [Key Artifacts & Outputs](#key-artifacts--outputs)
 - [Next Steps](#next-steps)
 - [License](#license)
