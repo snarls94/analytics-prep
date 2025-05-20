@@ -1,11 +1,11 @@
 site_name: Audit & Accountability Policy
 docs_dir: docs
 
-# ─── PLUGINS ────────────────────────────────────────────────────────────────
-plugins:
-  - search # enable the built-in MkDocs search box
-  - toc: # table-of-contents plugin
-      permalink: true # add a ¶ link to each heading
+# ─── MARKDOWN EXTENSIONS ─────────────────────────────────────────────────────
+# The built-in `toc` extension adds IDs and permalinks to your headers.
+markdown_extensions:
+  - toc:
+      permalink: true
 
 # ─── THEME ──────────────────────────────────────────────────────────────────
 theme:
