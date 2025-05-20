@@ -1,7 +1,17 @@
 site_name: Audit & Accountability Policy
 docs_dir: docs
+
+# ─── PLUGINS ────────────────────────────────────────────────────────────────
+plugins:
+  - search # enable the built-in MkDocs search box
+  - toc: # table-of-contents plugin
+      permalink: true # add a ¶ link to each heading
+
+# ─── THEME ──────────────────────────────────────────────────────────────────
 theme:
   name: material
+
+# ─── NAVIGATION ─────────────────────────────────────────────────────────────
 nav:
   - Home: index.md
   - Purpose: purpose.md

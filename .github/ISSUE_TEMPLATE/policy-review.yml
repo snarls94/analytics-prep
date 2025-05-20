@@ -1,0 +1,16 @@
+name: Annual Policy Review
+about: A reminder to review and update the Audit & Accountability Policy
+title: Annual Policy Review
+labels: review, policy
+body: |
+  ## 🗓 Annual Policy Review
+
+  It’s time to review our Audit & Accountability Policy:
+
+  - **Live docs:** https://snarls94.github.io/analytics-prep/  
+  - **Checklist:**
+    1. Verify all roles & responsibilities are up to date  
+    2. Confirm retention schedules meet CJIS requirements  
+    3. Update any procedures after the last security incident  
+
+  _Please assign yourself as the owner for this review and close this issue when done._
