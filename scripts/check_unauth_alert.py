@@ -2,7 +2,7 @@
 import os
 import requests
 from elasticsearch import Elasticsearch
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # Config from environment (or default)
 ES_URL     = os.getenv("ES_URL", "http://localhost:9200")
@@ -14,19 +14,29 @@ GITHUB_PAT = os.getenv("GITHUB_TOKEN")  # set this in your env
 
 def main():
     es = Elasticsearch(ES_URL)
-    now = datetime.utcnow()
+    # timezone‐aware "now" in UTC
+    now = datetime.now(timezone.utc)
     since = now - timedelta(minutes=LOOKBACK)
+
     # Build the ES query
     query = {
         "bool": {
             "must": [
                 {"term": {"event.keyword": "UNAUTHORIZED_ACCESS"}},
-                {"range": {"timestamp": {"gte": since.isoformat(), "lte": now.isoformat()}}}
+                {"range": {
+                    "timestamp": {
+                        "gte": since.isoformat(),
+                        "lte": now.isoformat()
+                    }
+                }}
             ]
         }
     }
+
     resp = es.search(index=INDEX, query=query)
     count = resp["hits"]["total"]["value"]
+    print(f"DEBUG: Found {count} UNAUTHORIZED_ACCESS events in the last {LOOKBACK} minutes")
+
     if count > 0:
         url = f"https://api.github.com/repos/{REPO}/issues"
         headers = {
