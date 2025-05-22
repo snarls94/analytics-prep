@@ -25,7 +25,7 @@ def main():
             "must": [
                 {"term": {"event.keyword": "UNAUTHORIZED_ACCESS"}},
                 {"range": {
-                    "timestamp": {
+                    "@timestamp": {
                         "gte": since.isoformat(),
                         "lte": now.isoformat()
                     }
