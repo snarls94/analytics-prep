@@ -21,6 +21,9 @@ jobs:
           pip install --upgrade pip
           pip install elasticsearch requests
 
+      - name: Smoke-test runner
+        run: echo "🔎 DEBUG: incident-alert workflow has reached Smoke-test runner step"
+
       - name: Run unauthorized-access checker
         env:
           ES_URL: http://localhost:9200
@@ -30,4 +33,5 @@ jobs:
           LOOKBACK_MIN: 5
         run: |
           source .venv_alert/bin/activate
+          echo "🔎 DEBUG: about to invoke check_unauth_alert.py"
           python scripts/check_unauth_alert.py
