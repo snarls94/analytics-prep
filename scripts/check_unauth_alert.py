@@ -15,6 +15,7 @@ GITHUB_PAT = os.getenv("GITHUB_TOKEN")  # set this in your env
 def main():
     es = Elasticsearch(ES_URL)
     # timezone‐aware "now" in UTC
+    print("DEBUG: Starting check_unauth_alert.py")
     now = datetime.now(timezone.utc)
     since = now - timedelta(minutes=LOOKBACK)
 
