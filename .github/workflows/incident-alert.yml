@@ -22,7 +22,7 @@ jobs:
           pip install elasticsearch requests
 
       - name: Smoke-test runner
-        run: echo "🔎 DEBUG: incident-alert workflow has reached Smoke-test runner step"
+        run: echo "DEBUG: incident-alert workflow has reached Smoke-test runner step"
 
       - name: Run unauthorized-access checker
         env:
