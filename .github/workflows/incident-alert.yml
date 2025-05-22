@@ -2,11 +2,12 @@ name: Incident-Driven Alerts
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
   alert:
-    runs-on: [ self-hosted, macOS ]
+    runs-on: [self-hosted, macOS]
 
     steps:
       - uses: actions/checkout@v3
@@ -22,10 +23,10 @@ jobs:
 
       - name: Run unauthorized-access checker
         env:
-          ES_URL:       http://localhost:9200
+          ES_URL: http://localhost:9200
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
-          GITHUB_REPO:  snarls94/analytics-prep
-          SITE_URL:     https://snarls94.github.io/analytics-prep/
+          GITHUB_REPO: snarls94/analytics-prep
+          SITE_URL: https://snarls94.github.io/analytics-prep/
           LOOKBACK_MIN: 5
         run: |
           source .venv_alert/bin/activate
