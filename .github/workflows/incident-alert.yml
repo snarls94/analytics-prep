@@ -6,23 +6,8 @@ on:
 
 jobs:
   alert:
-    runs-on: ubuntu-latest
-
-    services:
-      elasticsearch:
-        image: docker.elastic.co/elasticsearch/elasticsearch:7.17.14
-        env:
-          discovery.type: single-node
-          xpack.security.enabled: 'false'
-        # ports mapping isn’t strictly needed for service containers,
-        # but it makes localhost:9200 available
-        ports:
-          - 9200:9200
-        options: >-
-          --health-cmd="curl -s http://localhost:9200"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=5
+    # Use your local runner that has Elasticsearch & Logstash running
+    runs-on: [ self-hosted, linux ]
 
     steps:
       - uses: actions/checkout@v3
@@ -35,13 +20,9 @@ jobs:
       - name: Install dependencies
         run: pip install elasticsearch requests
 
-      - name: Wait for Elasticsearch
-        run: |
-          echo "Waiting for Elasticsearch to be available…"
-          until curl -s http://localhost:9200 >/dev/null; do sleep 1; done
-
       - name: Run unauthorized-access checker
         env:
+          # point at your local ELK stack
           ES_URL:       http://localhost:9200
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
           GITHUB_REPO:  snarls94/analytics-prep

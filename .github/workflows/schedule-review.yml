@@ -2,7 +2,7 @@ name: Schedule Annual Policy Review
 
 on:
   schedule:
-    - cron: '0 14 1 1 *'  # January 1 @ 10 AM EST (14 UTC)
+    - cron: "0 14 1 1 *" # January 1 @ 10 AM EST
 
 jobs:
   remind:
@@ -11,19 +11,19 @@ jobs:
       - name: Create Policy Review Issue
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUBTOKEN }}
           script: |
             await github.issues.create({
               owner: context.repo.owner,
-              repo: context.repo.repo,
+              repo:  context.repo.repo,
               title: "Annual Policy Review",
               body: `It’s time to review our Audit & Accountability Policy docs:
 
-- Live site: https://snarls94.github.io/analytics-prep/
-- Checklist:
-  1. Verify Roles & Responsibilities
-  2. Confirm retention schedules
-  3. Update after any security incident
+                - Live site: https://snarls94.github.io/analytics-prep/
+                - Checklist:
+                    1. Verify Roles & Responsibilities
+                    2. Confirm retention schedules
+                    3. Update after any security incident
 
-_Assign yourself and close when complete._`
+                _Assign yourself and close when complete._`
             })
