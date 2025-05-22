@@ -6,27 +6,21 @@ on:
 
 jobs:
   alert:
-    # Use your local runner that has Elasticsearch & Logstash running
-    runs-on: [ self-hosted, linux ]
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v3
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
       - name: Install dependencies
         run: pip install elasticsearch requests
-
       - name: Run unauthorized-access checker
         env:
-          # point at your local ELK stack
           ES_URL:       http://localhost:9200
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
           GITHUB_REPO:  snarls94/analytics-prep
           SITE_URL:     https://snarls94.github.io/analytics-prep/
           LOOKBACK_MIN: 5
         run: python scripts/check_unauth_alert.py
-
