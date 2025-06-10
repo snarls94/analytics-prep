@@ -1,0 +1,126 @@
+[2025-05-27T16:47:42.157-0400] {processor.py:153} INFO - Started process (PID=49923) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:47:42.159-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:47:42.159-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:47:42.159-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:47:42.186-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:47:42.206-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:47:42.205-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:47:42.526-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:47:42.526-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:47:42.532-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.376 seconds
+[2025-05-27T16:48:51.717-0400] {processor.py:153} INFO - Started process (PID=50963) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:48:51.719-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:48:51.719-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:48:51.719-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:48:51.747-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:48:52.085-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:48:52.084-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:48:52.092-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:48:52.092-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:48:52.099-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.383 seconds
+[2025-05-27T16:49:36.651-0400] {processor.py:153} INFO - Started process (PID=51447) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:49:36.653-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:49:36.653-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:49:36.653-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:49:36.682-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:49:37.022-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:49:37.022-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:49:37.029-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:49:37.029-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:49:37.035-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.385 seconds
+[2025-05-27T16:50:20.357-0400] {processor.py:153} INFO - Started process (PID=52034) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:50:20.359-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:50:20.359-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:50:20.359-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:50:20.387-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:50:20.722-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:50:20.722-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:50:20.732-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:50:20.732-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:50:20.739-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.383 seconds
+[2025-05-27T16:50:59.376-0400] {processor.py:153} INFO - Started process (PID=52266) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:50:59.378-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:50:59.379-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:50:59.379-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:50:59.410-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:50:59.787-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:50:59.787-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:50:59.794-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:50:59.794-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:50:59.801-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.426 seconds
+[2025-05-27T16:51:47.207-0400] {processor.py:153} INFO - Started process (PID=52541) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:51:47.209-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:51:47.210-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:51:47.210-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:51:47.237-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:51:47.618-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:51:47.618-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:51:47.625-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:51:47.625-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:51:47.632-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.425 seconds
+[2025-05-27T16:52:37.122-0400] {processor.py:153} INFO - Started process (PID=52835) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:52:37.126-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:52:37.127-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:52:37.127-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:52:37.156-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:52:37.519-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:52:37.519-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:52:37.525-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:52:37.525-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:52:37.533-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.411 seconds
+[2025-05-27T16:53:15.765-0400] {processor.py:153} INFO - Started process (PID=53065) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:53:15.767-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:53:15.767-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:53:15.767-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:53:15.796-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:53:16.153-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:53:16.153-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:53:16.159-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:53:16.159-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:53:16.165-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.401 seconds
+[2025-05-27T16:53:54.830-0400] {processor.py:153} INFO - Started process (PID=53296) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:53:54.833-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T16:53:54.834-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:53:54.834-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:53:54.866-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T16:53:55.241-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:53:55.241-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T16:53:55.249-0400] {logging_mixin.py:137} INFO - [2025-05-27T16:53:55.249-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T16:53:55.257-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.427 seconds
+[2025-05-27T17:32:39.145-0400] {processor.py:153} INFO - Started process (PID=53610) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T17:32:39.147-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T17:32:39.147-0400] {logging_mixin.py:137} INFO - [2025-05-27T17:32:39.147-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T17:32:39.176-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T17:32:39.528-0400] {logging_mixin.py:137} INFO - [2025-05-27T17:32:39.527-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T17:32:39.536-0400] {logging_mixin.py:137} INFO - [2025-05-27T17:32:39.536-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T17:32:39.542-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.398 seconds
+[2025-05-27T18:06:21.111-0400] {processor.py:153} INFO - Started process (PID=54171) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:06:21.114-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T18:06:21.114-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:06:21.114-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:06:21.147-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:06:21.481-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:06:21.481-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T18:06:21.488-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:06:21.488-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T18:06:21.495-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.384 seconds
+[2025-05-27T18:19:41.239-0400] {processor.py:153} INFO - Started process (PID=54616) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:19:41.242-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T18:19:41.242-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:19:41.242-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:19:41.280-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:19:41.643-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:19:41.643-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T18:19:41.649-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:19:41.649-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T18:19:41.656-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.418 seconds
+[2025-05-27T18:31:19.874-0400] {processor.py:153} INFO - Started process (PID=55008) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:31:19.878-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T18:31:19.879-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:31:19.879-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:31:19.921-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:31:20.352-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:31:20.352-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T18:31:20.359-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:31:20.359-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T18:31:20.367-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.497 seconds
+[2025-05-27T18:39:04.959-0400] {processor.py:153} INFO - Started process (PID=55302) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:39:04.962-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T18:39:04.963-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:39:04.963-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:39:05.000-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:39:05.373-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:39:05.373-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T18:39:05.379-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:39:05.379-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T18:39:05.386-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.427 seconds
+[2025-05-27T18:54:43.062-0400] {processor.py:153} INFO - Started process (PID=55717) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:54:43.065-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T18:54:43.065-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:54:43.065-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:54:43.151-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T18:54:43.556-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:54:43.555-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T18:54:43.566-0400] {logging_mixin.py:137} INFO - [2025-05-27T18:54:43.566-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T18:54:43.573-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.511 seconds
+[2025-05-27T19:36:05.251-0400] {processor.py:153} INFO - Started process (PID=56120) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:36:05.254-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T19:36:05.254-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:36:05.254-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:36:05.287-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:36:05.668-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:36:05.667-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T19:36:05.676-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:36:05.676-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T19:36:05.684-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.433 seconds
+[2025-05-27T19:49:50.071-0400] {processor.py:153} INFO - Started process (PID=56570) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:49:50.073-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T19:49:50.073-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:49:50.073-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:49:50.100-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:49:50.435-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:49:50.435-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T19:49:50.441-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:49:50.441-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T19:49:50.448-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.378 seconds
+[2025-05-27T19:56:19.121-0400] {processor.py:153} INFO - Started process (PID=56896) to work on /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:56:19.123-0400] {processor.py:743} INFO - Processing file /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-27T19:56:19.123-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:56:19.123-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:56:19.150-0400] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-27T19:56:19.524-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:56:19.524-0400] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-05-27T19:56:19.532-0400] {logging_mixin.py:137} INFO - [2025-05-27T19:56:19.532-0400] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-27T19:56:19.539-0400] {processor.py:175} INFO - Processing /Users/sruthibollu/anaconda3/envs/analytics-prep/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.419 seconds

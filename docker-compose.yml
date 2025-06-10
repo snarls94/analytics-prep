@@ -1,6 +1,10 @@
 version: '3.8'
 
 services:
+  ########################################
+  # 1) ELK Stack for Audit‐Log Ingestion #
+  ########################################
+
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.14
     container_name: elasticsearch
@@ -18,7 +22,7 @@ services:
     volumes:
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf:ro
     ports:
-      - "5001:5000"  # map host port 5001 → container port 5000
+      - "5001:5000"  # host 5001 → container 5000
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.17.14
@@ -29,3 +33,63 @@ services:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     ports:
       - "5601:5601"
+
+
+  ########################################
+  # 2) Airflow Metadata Database (Postgres) #
+  ########################################
+
+  postgres:
+    image: postgres:13
+    container_name: airflow_postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+
+  ########################################
+  # 3) Airflow (Scheduler + Webserver)   #
+  ########################################
+
+  airflow:
+    image: apache/airflow:2.6.3-python3.9
+    container_name: airflow
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # Use LocalExecutor and point at our Postgres for metadata
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags:ro
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+    ports:
+      - "8080:8080"
+    command: >
+      bash -c "
+        # Initialize the DB if needed
+        airflow db init &&
+        # Start the scheduler in the background
+        airflow scheduler & 
+        # Run the webserver in the foreground
+        exec airflow webserver
+      "
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/health || exit 1"]
+      interval: 10s
+      retries: 5
+
+volumes:
+  pgdata:

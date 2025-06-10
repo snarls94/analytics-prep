@@ -1,0 +1,567 @@
+[2025-06-04T17:36:43.598+0000] {processor.py:157} INFO - Started process (PID=169) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:36:43.600+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:36:43.617+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:36:43.602+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:36:43.711+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:36:43.754+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:36:43.753+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:36:43.785+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:36:43.785+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:36:43.836+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.243 seconds
+[2025-06-04T17:37:22.608+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:37:22.631+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:37:22.637+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:37:22.633+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:37:22.960+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:37:23.195+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:37:23.194+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:37:23.336+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:37:23.336+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:37:23.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.948 seconds
+[2025-06-04T17:37:53.949+0000] {processor.py:157} INFO - Started process (PID=227) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:37:53.951+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:37:53.953+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:37:53.952+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:37:53.982+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:37:54.023+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:37:54.023+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:37:54.043+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:37:54.043+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:37:54.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.114 seconds
+[2025-06-04T17:38:24.337+0000] {processor.py:157} INFO - Started process (PID=264) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:38:24.338+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:38:24.340+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:38:24.339+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:38:24.366+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:38:24.384+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:38:24.383+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:38:24.401+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:38:24.400+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:38:24.413+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.082 seconds
+[2025-06-04T17:38:54.776+0000] {processor.py:157} INFO - Started process (PID=294) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:38:54.780+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:38:54.782+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:38:54.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:38:54.817+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:38:54.863+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:38:54.863+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:38:54.889+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:38:54.889+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:38:54.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.133 seconds
+[2025-06-04T17:39:25.192+0000] {processor.py:157} INFO - Started process (PID=323) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:39:25.195+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:39:25.197+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:39:25.196+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:39:25.231+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:39:25.277+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:39:25.277+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:39:25.306+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:39:25.305+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:39:25.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.136 seconds
+[2025-06-04T17:39:55.726+0000] {processor.py:157} INFO - Started process (PID=351) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:39:55.732+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:39:55.738+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:39:55.737+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:39:56.089+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:39:56.817+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:39:56.816+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:39:58.843+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:39:58.807+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:39:59.132+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 3.429 seconds
+[2025-06-04T17:40:29.500+0000] {processor.py:157} INFO - Started process (PID=381) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:40:29.505+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:40:29.511+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:40:29.509+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:40:29.636+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:40:29.777+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:40:29.777+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:40:29.809+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:40:29.809+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:40:29.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.357 seconds
+[2025-06-04T17:41:00.217+0000] {processor.py:157} INFO - Started process (PID=410) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:41:00.219+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:41:00.220+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:41:00.220+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:41:00.262+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:41:00.325+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:41:00.325+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:41:00.353+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:41:00.353+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:41:00.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.167 seconds
+[2025-06-04T17:41:30.552+0000] {processor.py:157} INFO - Started process (PID=438) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:41:30.554+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:41:30.556+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:41:30.555+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:41:30.582+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:41:30.633+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:41:30.633+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:41:30.657+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:41:30.657+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:41:30.672+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.128 seconds
+[2025-06-04T17:42:01.178+0000] {processor.py:157} INFO - Started process (PID=468) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:42:01.180+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:42:01.182+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:42:01.181+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:42:01.213+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:42:01.264+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:42:01.264+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:42:01.287+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:42:01.287+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:42:01.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.129 seconds
+[2025-06-04T17:42:31.631+0000] {processor.py:157} INFO - Started process (PID=498) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:42:31.634+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:42:31.636+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:42:31.635+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:42:31.669+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:42:31.718+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:42:31.718+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:42:31.739+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:42:31.739+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:42:31.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.134 seconds
+[2025-06-04T17:43:02.039+0000] {processor.py:157} INFO - Started process (PID=528) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:43:02.041+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:43:02.042+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:43:02.042+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:43:02.069+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:43:02.140+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:43:02.140+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:43:02.199+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:43:02.198+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:43:02.229+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.198 seconds
+[2025-06-04T17:43:32.520+0000] {processor.py:157} INFO - Started process (PID=557) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:43:32.523+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:43:32.524+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:43:32.523+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:43:32.551+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:43:32.595+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:43:32.595+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:43:32.614+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:43:32.614+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:43:32.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.113 seconds
+[2025-06-04T17:44:03.042+0000] {processor.py:157} INFO - Started process (PID=586) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:44:03.044+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:44:03.045+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:44:03.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:44:03.072+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:44:03.121+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:44:03.121+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:44:03.149+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:44:03.149+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:44:03.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.131 seconds
+[2025-06-04T17:44:33.481+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:44:33.483+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:44:33.486+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:44:33.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:44:33.514+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:44:33.548+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:44:33.548+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:44:33.566+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:44:33.566+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:44:33.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.105 seconds
+[2025-06-04T17:45:03.887+0000] {processor.py:157} INFO - Started process (PID=644) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:45:03.889+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:45:03.891+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:45:03.890+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:45:03.920+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:45:03.973+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:45:03.972+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:45:03.998+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:45:03.998+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:45:04.010+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.130 seconds
+[2025-06-04T17:45:34.299+0000] {processor.py:157} INFO - Started process (PID=673) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:45:34.301+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:45:34.303+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:45:34.302+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:45:34.335+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:45:34.382+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:45:34.382+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:45:34.401+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:45:34.401+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:45:34.415+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.121 seconds
+[2025-06-04T17:46:04.604+0000] {processor.py:157} INFO - Started process (PID=702) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:46:04.606+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:46:04.608+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:46:04.608+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:46:04.635+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:46:04.666+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:46:04.666+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:46:04.686+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:46:04.686+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:46:04.697+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.102 seconds
+[2025-06-04T17:46:34.981+0000] {processor.py:157} INFO - Started process (PID=731) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:46:34.985+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:46:34.986+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:46:34.986+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:46:35.009+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:46:35.046+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:46:35.046+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:46:35.068+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:46:35.068+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:46:35.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.102 seconds
+[2025-06-04T17:47:05.432+0000] {processor.py:157} INFO - Started process (PID=761) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:47:05.434+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:47:05.436+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:47:05.435+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:47:05.457+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:47:05.495+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:47:05.495+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:47:05.517+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:47:05.517+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:47:05.529+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.102 seconds
+[2025-06-04T17:47:35.812+0000] {processor.py:157} INFO - Started process (PID=790) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:47:35.814+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:47:35.816+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:47:35.815+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:47:35.839+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:47:35.876+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:47:35.875+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:47:35.898+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:47:35.898+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:47:35.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.108 seconds
+[2025-06-04T17:48:06.199+0000] {processor.py:157} INFO - Started process (PID=819) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:48:06.201+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:48:06.203+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:48:06.202+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:48:06.234+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:48:06.273+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:48:06.273+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:48:06.297+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:48:06.297+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:48:06.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.115 seconds
+[2025-06-04T17:48:36.612+0000] {processor.py:157} INFO - Started process (PID=848) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:48:36.615+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:48:36.616+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:48:36.616+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:48:36.644+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:48:36.683+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:48:36.683+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:48:36.705+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:48:36.704+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:48:36.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.110 seconds
+[2025-06-04T17:49:07.022+0000] {processor.py:157} INFO - Started process (PID=877) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:49:07.024+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:49:07.025+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:49:07.024+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:49:07.049+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:49:07.086+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:49:07.086+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:49:07.108+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:49:07.108+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:49:07.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.109 seconds
+[2025-06-04T17:49:37.371+0000] {processor.py:157} INFO - Started process (PID=906) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:49:37.373+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:49:37.374+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:49:37.374+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:49:37.403+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:49:37.437+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:49:37.437+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:49:37.457+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:49:37.457+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:49:37.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.105 seconds
+[2025-06-04T17:50:07.787+0000] {processor.py:157} INFO - Started process (PID=935) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:50:07.789+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:50:07.790+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:50:07.790+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:50:07.819+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:50:07.864+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:50:07.863+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:50:07.882+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:50:07.882+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:50:07.893+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.112 seconds
+[2025-06-04T17:50:38.163+0000] {processor.py:157} INFO - Started process (PID=965) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:50:38.165+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:50:38.166+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:50:38.166+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:50:38.190+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:50:38.222+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:50:38.222+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:50:38.244+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:50:38.244+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:50:38.254+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.097 seconds
+[2025-06-04T17:51:08.517+0000] {processor.py:157} INFO - Started process (PID=994) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:51:08.519+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:51:08.521+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:51:08.520+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:51:08.556+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:51:08.596+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:51:08.596+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:51:08.615+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:51:08.615+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:51:08.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.125 seconds
+[2025-06-04T17:51:38.804+0000] {processor.py:157} INFO - Started process (PID=1023) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:51:38.806+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:51:38.808+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:51:38.807+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:51:38.838+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:51:38.905+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:51:38.905+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:51:38.940+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:51:38.940+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:51:38.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.158 seconds
+[2025-06-04T17:52:09.297+0000] {processor.py:157} INFO - Started process (PID=1052) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:52:09.299+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:52:09.301+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:52:09.300+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:52:09.329+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:52:09.379+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:52:09.379+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:52:09.405+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:52:09.405+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:52:09.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.129 seconds
+[2025-06-04T17:52:39.673+0000] {processor.py:157} INFO - Started process (PID=1081) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:52:39.677+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:52:39.681+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:52:39.679+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:52:39.724+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:52:39.772+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:52:39.772+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:52:39.800+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:52:39.800+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:52:39.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.156 seconds
+[2025-06-04T17:53:10.038+0000] {processor.py:157} INFO - Started process (PID=1110) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:53:10.040+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:53:10.041+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:53:10.040+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:53:10.069+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:53:10.122+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:53:10.122+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:53:10.155+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:53:10.154+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:53:10.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.139 seconds
+[2025-06-04T17:53:40.494+0000] {processor.py:157} INFO - Started process (PID=1139) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:53:40.496+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:53:40.498+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:53:40.497+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:53:40.534+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:53:40.589+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:53:40.589+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:53:40.622+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:53:40.622+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:53:40.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.147 seconds
+[2025-06-04T17:54:10.881+0000] {processor.py:157} INFO - Started process (PID=1168) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:54:10.885+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:54:10.887+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:54:10.886+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:54:10.919+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:54:10.970+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:54:10.970+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:54:10.997+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:54:10.996+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:54:11.010+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.145 seconds
+[2025-06-04T17:54:41.290+0000] {processor.py:157} INFO - Started process (PID=1197) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:54:41.291+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:54:41.293+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:54:41.292+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:54:41.323+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:54:41.371+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:54:41.371+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:54:41.397+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:54:41.397+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:54:41.410+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.127 seconds
+[2025-06-04T17:55:11.644+0000] {processor.py:157} INFO - Started process (PID=1226) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:55:11.646+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:55:11.647+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:55:11.647+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:55:11.669+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:55:11.717+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:55:11.717+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:55:11.739+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:55:11.739+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:55:11.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.117 seconds
+[2025-06-04T17:55:42.052+0000] {processor.py:157} INFO - Started process (PID=1255) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:55:42.054+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:55:42.055+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:55:42.054+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:55:42.079+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:55:42.129+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:55:42.129+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:55:42.154+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:55:42.154+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:55:42.168+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.121 seconds
+[2025-06-04T17:56:12.423+0000] {processor.py:157} INFO - Started process (PID=1284) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:56:12.425+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:56:12.427+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:56:12.426+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:56:12.466+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:56:12.514+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:56:12.514+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:56:12.544+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:56:12.544+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:56:12.555+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.142 seconds
+[2025-06-04T17:56:42.773+0000] {processor.py:157} INFO - Started process (PID=1313) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:56:42.775+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:56:42.776+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:56:42.776+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:56:42.806+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:56:42.857+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:56:42.857+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:56:42.884+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:56:42.884+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:56:42.897+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.131 seconds
+[2025-06-04T17:57:13.096+0000] {processor.py:157} INFO - Started process (PID=1341) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:57:13.099+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:57:13.101+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:57:13.101+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:57:13.136+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:57:13.193+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:57:13.193+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:57:13.219+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:57:13.219+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:57:13.235+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.156 seconds
+[2025-06-04T17:57:43.481+0000] {processor.py:157} INFO - Started process (PID=1370) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:57:43.483+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:57:43.485+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:57:43.484+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:57:43.525+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:57:43.576+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:57:43.576+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:57:43.603+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:57:43.602+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:57:43.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.145 seconds
+[2025-06-04T17:58:13.783+0000] {processor.py:157} INFO - Started process (PID=1399) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:58:13.784+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:58:13.786+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:58:13.785+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:58:13.814+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:58:13.864+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:58:13.864+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:58:13.894+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:58:13.894+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:58:13.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.133 seconds
+[2025-06-04T17:58:44.219+0000] {processor.py:157} INFO - Started process (PID=1428) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:58:44.222+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:58:44.226+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:58:44.225+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:58:44.259+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:58:44.320+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:58:44.320+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:58:44.356+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:58:44.356+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:58:44.370+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.159 seconds
+[2025-06-04T17:59:14.638+0000] {processor.py:157} INFO - Started process (PID=1457) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:59:14.639+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:59:14.641+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:59:14.640+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:59:14.677+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:59:14.724+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:59:14.724+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:59:14.752+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:59:14.752+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:59:14.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.135 seconds
+[2025-06-04T17:59:44.997+0000] {processor.py:157} INFO - Started process (PID=1486) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:59:45.000+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T17:59:45.002+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:59:45.001+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:59:45.032+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T17:59:45.075+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:59:45.074+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T17:59:45.098+0000] {logging_mixin.py:150} INFO - [2025-06-04T17:59:45.097+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T17:59:45.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.123 seconds
+[2025-06-04T18:00:15.354+0000] {processor.py:157} INFO - Started process (PID=1515) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:00:15.356+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:00:15.358+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:00:15.357+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:00:15.392+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:00:15.435+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:00:15.435+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:00:15.459+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:00:15.459+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:00:15.472+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.125 seconds
+[2025-06-04T18:00:45.788+0000] {processor.py:157} INFO - Started process (PID=1544) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:00:45.790+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:00:45.792+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:00:45.791+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:00:45.820+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:00:45.866+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:00:45.866+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:00:45.891+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:00:45.891+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:00:45.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.123 seconds
+[2025-06-04T18:05:00.759+0000] {processor.py:157} INFO - Started process (PID=1566) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:05:00.764+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:05:00.775+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:05:00.774+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:05:00.852+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:05:00.955+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:05:00.955+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:05:01.011+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:05:01.011+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:05:01.048+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.315 seconds
+[2025-06-04T18:11:51.799+0000] {processor.py:157} INFO - Started process (PID=1604) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:11:51.802+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:11:51.806+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:11:51.805+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:11:51.899+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:11:51.970+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:11:51.969+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:11:52.014+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:11:52.014+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:11:52.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.271 seconds
+[2025-06-04T18:12:35.701+0000] {processor.py:157} INFO - Started process (PID=1637) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:12:35.706+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:12:35.709+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:12:35.708+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:12:35.735+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:12:35.779+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:12:35.779+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:12:35.803+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:12:35.803+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:12:35.814+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.121 seconds
+[2025-06-04T18:15:29.028+0000] {processor.py:157} INFO - Started process (PID=1666) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:15:29.031+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:15:29.035+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:15:29.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:15:29.138+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:15:29.226+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:15:29.226+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:15:29.268+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:15:29.268+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:15:29.302+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.294 seconds
+[2025-06-04T18:16:07.876+0000] {processor.py:157} INFO - Started process (PID=1699) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:16:07.879+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:16:07.880+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:16:07.880+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:16:07.910+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:16:07.952+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:16:07.952+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:16:07.976+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:16:07.976+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:16:07.988+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.125 seconds
+[2025-06-04T18:16:51.093+0000] {processor.py:157} INFO - Started process (PID=1728) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:16:51.096+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:16:51.100+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:16:51.098+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:16:51.138+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:16:51.191+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:16:51.191+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:16:51.217+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:16:51.217+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:16:51.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.144 seconds
+[2025-06-04T18:17:33.210+0000] {processor.py:157} INFO - Started process (PID=1757) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:17:33.215+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:17:33.217+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:17:33.216+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:17:33.253+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:17:33.284+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:17:33.283+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:17:33.308+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:17:33.308+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:17:33.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.120 seconds
+[2025-06-04T18:18:15.133+0000] {processor.py:157} INFO - Started process (PID=1786) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:18:15.136+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:18:15.138+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:18:15.137+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:18:15.170+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:18:15.205+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:18:15.205+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:18:15.221+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:18:15.221+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:18:15.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.106 seconds
+[2025-06-04T18:19:09.543+0000] {processor.py:157} INFO - Started process (PID=1814) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:19:09.545+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:19:09.547+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:19:09.546+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:19:09.573+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:19:09.612+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:19:09.612+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:19:09.634+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:19:09.634+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:19:09.645+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.108 seconds
+[2025-06-04T18:20:30.104+0000] {processor.py:157} INFO - Started process (PID=1845) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:20:30.106+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:20:30.107+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:20:30.107+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:20:30.133+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:20:30.169+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:20:30.169+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:20:30.192+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:20:30.192+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:20:30.205+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.109 seconds
+[2025-06-04T18:21:15.156+0000] {processor.py:157} INFO - Started process (PID=1874) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:21:15.158+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:21:15.163+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:21:15.163+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:21:15.193+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:21:15.226+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:21:15.225+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:21:15.247+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:21:15.247+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:21:15.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.115 seconds
+[2025-06-04T18:21:57.088+0000] {processor.py:157} INFO - Started process (PID=1903) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:21:57.090+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:21:57.092+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:21:57.091+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:21:57.115+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:21:57.161+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:21:57.161+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:21:57.181+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:21:57.181+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:21:57.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.110 seconds
+[2025-06-04T18:22:41.621+0000] {processor.py:157} INFO - Started process (PID=1933) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:22:41.627+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:22:41.629+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:22:41.628+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:22:41.660+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:22:41.703+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:22:41.703+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:22:41.727+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:22:41.727+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:22:41.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.133 seconds
+[2025-06-04T18:25:57.074+0000] {processor.py:157} INFO - Started process (PID=1963) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:25:57.076+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:25:57.078+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:25:57.077+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:25:57.100+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:25:57.144+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:25:57.144+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:25:57.170+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:25:57.170+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:25:57.183+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.114 seconds
+[2025-06-04T18:30:32.510+0000] {processor.py:157} INFO - Started process (PID=1997) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:30:32.512+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:30:32.513+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:30:32.513+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:30:32.544+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:30:32.590+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:30:32.589+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:30:32.615+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:30:32.615+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:30:32.627+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.122 seconds
+[2025-06-04T18:45:21.463+0000] {processor.py:157} INFO - Started process (PID=2018) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:45:21.477+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:45:21.479+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:45:21.479+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:45:21.573+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:45:21.720+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:45:21.720+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:45:21.794+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:45:21.794+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:45:21.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.406 seconds
+[2025-06-04T18:48:07.571+0000] {processor.py:157} INFO - Started process (PID=2049) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:48:07.576+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:48:07.582+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:48:07.581+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:48:07.655+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:48:07.748+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:48:07.748+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:48:07.777+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:48:07.777+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:48:07.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.316 seconds
+[2025-06-04T18:48:38.528+0000] {processor.py:157} INFO - Started process (PID=2082) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:48:38.531+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:48:38.533+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:48:38.532+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:48:38.566+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:48:38.606+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:48:38.606+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:48:38.630+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:48:38.630+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:48:38.645+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.123 seconds
+[2025-06-04T18:49:08.859+0000] {processor.py:157} INFO - Started process (PID=2111) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:49:08.861+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:49:08.862+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:49:08.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:49:08.883+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:49:08.920+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:49:08.920+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:49:08.940+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:49:08.940+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:49:08.952+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.100 seconds
+[2025-06-04T18:49:39.164+0000] {processor.py:157} INFO - Started process (PID=2140) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:49:39.168+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:49:39.170+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:49:39.169+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:49:39.201+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:49:39.227+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:49:39.227+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:49:39.245+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:49:39.245+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:49:39.257+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.104 seconds
+[2025-06-04T18:50:09.613+0000] {processor.py:157} INFO - Started process (PID=2169) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:50:09.616+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:50:09.618+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:50:09.617+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:50:09.647+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:50:09.682+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:50:09.682+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:50:09.700+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:50:09.700+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:50:09.713+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.107 seconds
+[2025-06-04T18:50:40.096+0000] {processor.py:157} INFO - Started process (PID=2198) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:50:40.098+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T18:50:40.099+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:50:40.099+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:50:40.129+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T18:50:40.168+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:50:40.168+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T18:50:40.190+0000] {logging_mixin.py:150} INFO - [2025-06-04T18:50:40.190+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T18:50:40.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.113 seconds
+[2025-06-04T19:08:48.508+0000] {processor.py:157} INFO - Started process (PID=2227) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T19:08:48.523+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T19:08:48.525+0000] {logging_mixin.py:150} INFO - [2025-06-04T19:08:48.524+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T19:08:48.605+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T19:08:48.798+0000] {logging_mixin.py:150} INFO - [2025-06-04T19:08:48.797+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T19:08:48.879+0000] {logging_mixin.py:150} INFO - [2025-06-04T19:08:48.878+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T19:08:48.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.451 seconds
+[2025-06-04T19:31:16.419+0000] {processor.py:157} INFO - Started process (PID=2260) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T19:31:16.426+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T19:31:16.429+0000] {logging_mixin.py:150} INFO - [2025-06-04T19:31:16.428+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T19:31:16.772+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T19:31:16.948+0000] {logging_mixin.py:150} INFO - [2025-06-04T19:31:16.947+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T19:31:17.009+0000] {logging_mixin.py:150} INFO - [2025-06-04T19:31:17.009+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T19:31:17.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.707 seconds
+[2025-06-04T20:11:42.709+0000] {processor.py:157} INFO - Started process (PID=2293) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:11:42.711+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T20:11:42.712+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:11:42.712+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:11:42.739+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:11:42.775+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:11:42.775+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T20:11:42.795+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:11:42.795+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T20:11:42.807+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.103 seconds
+[2025-06-04T20:44:57.615+0000] {processor.py:157} INFO - Started process (PID=2326) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:44:57.618+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T20:44:57.620+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:44:57.619+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:44:57.705+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:44:57.811+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:44:57.811+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T20:44:57.878+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:44:57.878+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T20:44:57.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.323 seconds
+[2025-06-04T20:51:28.058+0000] {processor.py:157} INFO - Started process (PID=2362) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:51:28.061+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T20:51:28.062+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:51:28.062+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:51:28.095+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T20:51:28.141+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:51:28.141+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T20:51:28.165+0000] {logging_mixin.py:150} INFO - [2025-06-04T20:51:28.165+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T20:51:28.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.129 seconds
+[2025-06-04T21:09:09.443+0000] {processor.py:157} INFO - Started process (PID=2395) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T21:09:09.450+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T21:09:09.458+0000] {logging_mixin.py:150} INFO - [2025-06-04T21:09:09.454+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T21:09:09.578+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T21:09:09.784+0000] {logging_mixin.py:150} INFO - [2025-06-04T21:09:09.783+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T21:09:09.916+0000] {logging_mixin.py:150} INFO - [2025-06-04T21:09:09.915+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T21:09:09.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.589 seconds
+[2025-06-04T21:48:24.669+0000] {processor.py:157} INFO - Started process (PID=2428) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T21:48:24.678+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T21:48:24.684+0000] {logging_mixin.py:150} INFO - [2025-06-04T21:48:24.680+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T21:48:24.806+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T21:48:24.927+0000] {logging_mixin.py:150} INFO - [2025-06-04T21:48:24.926+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T21:48:24.997+0000] {logging_mixin.py:150} INFO - [2025-06-04T21:48:24.997+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T21:48:25.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.380 seconds
+[2025-06-04T22:01:16.146+0000] {processor.py:157} INFO - Started process (PID=2461) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:01:16.149+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T22:01:16.151+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:01:16.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:01:16.185+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:01:16.225+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:01:16.225+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T22:01:16.247+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:01:16.247+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T22:01:16.258+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.119 seconds
+[2025-06-04T22:06:09.850+0000] {processor.py:157} INFO - Started process (PID=2494) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:06:09.852+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T22:06:09.853+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:06:09.853+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:06:09.887+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:06:09.934+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:06:09.934+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T22:06:09.960+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:06:09.960+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T22:06:09.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.133 seconds
+[2025-06-04T22:53:38.842+0000] {processor.py:157} INFO - Started process (PID=2516) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:53:38.844+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T22:53:38.847+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:53:38.846+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:53:38.877+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T22:53:38.922+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:53:38.921+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T22:53:38.948+0000] {logging_mixin.py:150} INFO - [2025-06-04T22:53:38.948+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T22:53:38.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.124 seconds
+[2025-06-04T23:50:18.580+0000] {processor.py:157} INFO - Started process (PID=2546) to work on /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T23:50:18.583+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/cjis_audit_retention.py for tasks to queue
+[2025-06-04T23:50:18.592+0000] {logging_mixin.py:150} INFO - [2025-06-04T23:50:18.590+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T23:50:18.688+0000] {processor.py:836} INFO - DAG(s) dict_keys(['cjis_audit_retention']) retrieved from /opt/airflow/dags/cjis_audit_retention.py
+[2025-06-04T23:50:18.815+0000] {logging_mixin.py:150} INFO - [2025-06-04T23:50:18.814+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-04T23:50:18.953+0000] {logging_mixin.py:150} INFO - [2025-06-04T23:50:18.953+0000] {dag.py:3504} INFO - Setting next_dagrun for cjis_audit_retention to 2025-06-03T00:00:00+00:00, run_after=2025-06-04T00:00:00+00:00
+[2025-06-04T23:50:19.045+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/cjis_audit_retention.py took 0.490 seconds
