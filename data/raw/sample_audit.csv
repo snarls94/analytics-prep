@@ -1,0 +1,4 @@
+event_type,event_timestamp,user_id,outcome,source_system,system_name,system_location,metadata
+LOGIN,2025-06-04T12:00:00Z,jdoe,SUCCESS,auth-service,eAgent-API,server-us-east-1,"{ }"
+DELETE_PERMISSION,2025-06-04T12:05:30Z,asmith,FAILURE,permissions-service,WebUI,server-us-east-2,"{""reason"":""insufficient rights""}"
+PASSWORD_CHANGE,2025-06-04T12:10:15Z,mjones,SUCCESS,auth-service,eAgent-API,server-us-west-1,"{ }"
