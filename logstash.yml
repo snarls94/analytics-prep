@@ -1,0 +1,5 @@
+# logstash.yml
+xpack.monitoring.enabled: false # disable the internal monitoring pipeline
+pipeline.workers: 1 # single‐threaded processing
+pipeline.batch.size: 50 # smaller batches per worker
+pipeline.batch.delay: 100 # ms to wait for a full batch

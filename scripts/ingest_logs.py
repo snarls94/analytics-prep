@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 scripts/ingest_logs.py
-ETL: load audit_log CSVs into the audit_events table in PostgreSQL.
+ETL: validate and load audit_log CSVs into audit_events.
 """
 
 import os
@@ -14,31 +14,47 @@ DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:pass@localhost:5432/
 RAW_GLOB     = "data/raw/audit_log_*.csv"
 TABLE_NAME   = "audit_events"
 
+# Required columns per AU-3
+REQUIRED_COLS = [
+    "event_type",
+    "event_timestamp",
+    "user_id",
+    "outcome",
+    "source_system",
+    "system_name",
+    "system_location",
+]
+
 def main():
     engine = create_engine(DATABASE_URL)
-    files = glob.glob(RAW_GLOB)
+    files = glob.glob(RAW_GLOB) + ["data/raw/sample_audit.csv"]
     if not files:
-        print("No raw CSVs found. Make sure data/raw/ contains audit_log_*.csv")
+        print("No raw CSVs found. Place files matching audit_log_*.csv or sample_audit.csv in data/raw/")
         return
 
     for path in files:
         print(f"Loading {path}…")
         df = pd.read_csv(path)
 
-        # Rename timestamp column to match DDL
+        # Validate required columns
+        missing = [c for c in REQUIRED_COLS if c not in df.columns]
+        if missing:
+            raise ValueError(f"Missing required columns in {path}: {missing}")
+
+        # Rename timestamp field if needed
         if "timestamp" in df.columns:
             df = df.rename(columns={"timestamp": "event_timestamp"})
 
-        # Append to DB
+        # Append to DB by passing the DATABASE_URL string directly
         df.to_sql(
-            TABLE_NAME,
-            engine,
+            name=TABLE_NAME,
+            con=DATABASE_URL,     # let pandas/SQLAlchemy create its own engine
             if_exists="append",
             index=False,
-            method="multi",
+            method="multi",       # still use batched INSERT
             chunksize=1000
         )
-        print(f"  → {len(df)} rows inserted.")
+        print(f"  → {len(df)} rows inserted into {TABLE_NAME}.")
 
 if __name__ == "__main__":
     main()

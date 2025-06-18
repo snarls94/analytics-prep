@@ -11,6 +11,7 @@ services:
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
     ports:
       - "9200:9200"
 
@@ -21,9 +22,16 @@ services:
       - elasticsearch
     volumes:
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf:ro
+      - ./logstash.yml:/usr/share/logstash/config/logstash.yml:ro
     ports:
-      - "5001:5000"  # host 5001 → container 5000
-
+      - "5001:5001"  # host 5001 → container 5001
+    environment:
+      - xpack.security.enabled=false
+      - LS_JAVA_OPTS=-Xms512m -Xmx512m
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"    # max half a CPU
   kibana:
     image: docker.elastic.co/kibana/kibana:7.17.14
     container_name: kibana
@@ -67,6 +75,8 @@ services:
       postgres:
         condition: service_healthy
     environment:
+      # Disable UI authentication (for a local demo only)
+      AIRFLOW__WEBSERVER__AUTHENTICATE: 'False'
       # Use LocalExecutor and point at our Postgres for metadata
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow

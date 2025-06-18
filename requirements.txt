@@ -1,0 +1,9 @@
+pandas
+SQLAlchemy
+psycopg2-binary
+requests
+elasticsearch
+pydantic
+mkdocs
+mkdocs-material
+apache-airflow==2.6.3
