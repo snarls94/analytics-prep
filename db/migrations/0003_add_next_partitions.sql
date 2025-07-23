@@ -1,0 +1,10 @@
+-- 0003_add_next_partitions.sql
+BEGIN;
+
+CREATE TABLE IF NOT EXISTS audit_events_2025_08 PARTITION OF audit_events
+  FOR VALUES FROM ('2025-08-01') TO ('2025-09-01');
+
+CREATE TABLE IF NOT EXISTS audit_events_2025_09 PARTITION OF audit_events
+  FOR VALUES FROM ('2025-09-01') TO ('2025-10-01');
+
+COMMIT;

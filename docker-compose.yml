@@ -81,6 +81,8 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW_CONN_POSTGRES_DEFAULT: >
+       postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
     volumes:
       - ./airflow/dags:/opt/airflow/dags:ro
       - ./airflow/logs:/opt/airflow/logs

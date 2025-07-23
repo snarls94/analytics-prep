@@ -2,3 +2,5 @@ env/
 .venv-docs/
 actions-runner/
 .venv_alert/
+.venv/
+airflow/logs/
